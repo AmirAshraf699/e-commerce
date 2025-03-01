@@ -1,0 +1,185 @@
+<template>
+  <div class="exotic-fruits">
+    <v-container>
+      <div class="exotic-content">
+        <div class="exotic-store">
+          <h2>Fresh Exotic Fruits</h2>
+          <p class="exotic-our-store">in Our Store</p>
+          <p class="exotic-desc">
+            The generated Lorem Ipsum is therefore always free from repetition
+            injected humour, or non-characteristic words etc.
+          </p>
+          <a href="#" class="exotic-link">Buy</a>
+        </div>
+        <div class="exotic-image">
+          <p><span>1</span><sup>50$</sup><sub>kg</sub></p>
+          <img src="../../public/images/backage-apple.png" alt="" />
+        </div>
+      </div>
+    </v-container>
+  </div>
+</template>
+
+<style lang="scss">
+.exotic-fruits {
+  height: 600px;
+  background-color: var(--bs-secondary);
+  text-align: center;
+  .v-container {
+    height: 100%;
+    .exotic-content {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .exotic-store,
+      .exotic-image {
+        flex: 1;
+      }
+      .exotic-store {
+        text-align: left;
+        h2 {
+          font-size: 60px;
+          font-weight: 900;
+          color: var(--bs-white);
+          line-height: 1.2;
+        }
+        .exotic-our-store {
+          font-size: 70px;
+          color: var(--bs-gray);
+          margin-bottom: 0;
+        }
+        .exotic-desc {
+          margin-bottom: 20px;
+          margin-top: 20px;
+          color: var(--bs-dark);
+          font-size: 18px;
+        }
+        .exotic-link {
+          display: block;
+          color: var(--bs-dark);
+          font-size: 18px;
+          border: 2px solid var(--bs-white);
+          width: fit-content;
+          padding: 15px 50px;
+          border-radius: 40px;
+          transition: 0.3s;
+          &:hover {
+            background-color: var(--bs-primary);
+          }
+        }
+      }
+      .exotic-image {
+        position: relative;
+        p {
+          position: absolute;
+          background-color: var(--bs-white);
+          width: 150px;
+          height: 150px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 80px;
+          border-radius: 50%;
+          font-weight: 900;
+          color: var(--bs-dark);
+          top: 0;
+          left: 90px;
+          sub,
+          sup {
+            font-weight: normal;
+            font-size: 30px;
+          }
+          sup {
+            font-weight: 600;
+          }
+          sub {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            color: var(--bs-gray);
+          }
+        }
+        img {
+          width: 400px;
+          height: 400px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .exotic-fruits {
+    height: 100vh;
+    padding: 50px 100px 100px;
+    .v-container {
+      .exotic-content {
+        flex-direction: column;
+        .exotic-store {
+          h2 {
+            font-size: 50px;
+          }
+          .exotic-our-store {
+            font-size: 60px;
+          }
+        }
+        .exotic-image {
+          p {
+            left: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .exotic-fruits {
+    .v-container {
+      .exotic-content {
+        flex-direction: column;
+        gap: 50px;
+        .exotic-store {
+          .exotic-our-store {
+            font-size: 50px;
+          }
+        }
+        .exotic-image {
+          p {
+            left: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .exotic-fruits {
+    padding: 50px 0;
+    .v-container {
+      .exotic-content {
+        flex-direction: column;
+        gap: 50px;
+        .exotic-store {
+          h2 {
+            font-size: 35px;
+          }
+          .exotic-our-store {
+            font-size: 40px;
+          }
+          .exotic-desc {
+            font-size: 16px;
+          }
+        }
+        .exotic-image {
+          p {
+            left: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+</style>
