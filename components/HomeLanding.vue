@@ -5,7 +5,7 @@
         <div class="landing-title">
           <p class="landing-organic">100% Organic Foods</p>
           <h1>Organic Veggies & Fruits Foods</h1>
-          <form action="" class="landing-form">
+          <form class="landing-form" @submit.prevent="handleSearch">
             <input type="search" name="search" placeholder="Search" />
             <input type="submit" value="Submit Now" @submit="prevent" />
           </form>
@@ -17,16 +17,22 @@
             prevIcon: '.swiper-prev',
             nextIcon: '.swiper-next',
           }"
-          :autoplay="{ delay: 3000 }"
+          :autoplay="{ delay: 3000, disableOnInteraction: false }"
+          @swiper="onSwiper"
+          @slideChange="onSlideChange"
         >
-          <swiper-slide>
-            <img src="/images/fruits.webp" alt="" />
-            <a href="#">Fruits</a>
-          </swiper-slide>
-          <swiper-slide>
-            <img src="/images/vegetables.webp" alt="" />
-            <a href="#">Vegetables</a>
-          </swiper-slide>
+          <SwiperSlide>
+            <div class="slide-content">
+              <img src="/images/fruits.webp" alt="Fruits" />
+              <a href="#">Fruits</a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="slide-content">
+              <img src="/images/vegetables.webp" alt="Vegetables" />
+              <a href="#">Vegetables</a>
+            </div>
+          </SwiperSlide>
           <div class="swiper-prev"></div>
           <div class="swiper-next"></div>
         </Swiper>
@@ -37,7 +43,6 @@
 
 <script>
 import { Navigation, Scrollbar } from "swiper";
-
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 import "swiper/css";

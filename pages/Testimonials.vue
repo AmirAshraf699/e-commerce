@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import { useCounterStore } from "@/store/counter";
+import { useCounterStore } from "~/store/counter";
 import { mapState } from "pinia";
 export default {
   computed: {

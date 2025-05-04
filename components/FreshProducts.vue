@@ -5,22 +5,8 @@
       <Swiper
         :pagination="{ el: '.swiper-pagination', clickable: true }"
         :modules="modules"
-        :slides-per-view="1"
+        :slides-per-view="4"
         :space-between="30"
-        :breakpoints="{
-          '640': {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          '991': {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          '1200': {
-            slidesPerView: 4,
-            spaceBetween: 30,
-          },
-        }"
         :navigation="{ prevIcon: '.swiper-prev', nextIcon: '.swiper-next' }"
         :autoplay="{ delay: 3000 }"
       >

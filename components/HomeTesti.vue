@@ -10,12 +10,6 @@
         :modules="modules"
         :slides-per-view="1"
         :space-between="10"
-        :breakpoints="{
-          '991': {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-        }"
         :navigation="{ prevIcon: '.swiper-prev', nextIcon: '.swiper-next' }"
         :autoplay="{ delay: 3000 }"
       >
