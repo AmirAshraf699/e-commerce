@@ -26,8 +26,8 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
-                      <span class="price">$4.99 / kg<</span>
+                    <div class="open">
+                      <span class="price">$4.99 / kg</span>
                       <AddButton />
                     </div>
                   </div>
@@ -47,7 +47,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.55 / kg</span>
                       <AddButton />
                     </div>
@@ -68,7 +68,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">>$3.99 / kg</span>
                       <AddButton />
                     </div>
@@ -89,7 +89,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$3.89 / kg</span>
                       <AddButton />
                     </div>
@@ -110,7 +110,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$5.99 / kg</span>
                       <AddButton />
                     </div>
@@ -131,7 +131,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$5.50 / kg</span>
                       <AddButton />
                     </div>
@@ -152,7 +152,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.30 / kg</span>
                       <AddButton />
                     </div>
@@ -173,7 +173,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$6.99 / kg</span>
                       <AddButton />
                     </div>
@@ -194,7 +194,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.99 / kg</span>
                       <AddButton />
                     </div>
@@ -215,7 +215,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.99 / kg<</span>
                       <AddButton />
                     </div>
@@ -236,7 +236,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.55 / kg</span>
                       <AddButton />
                     </div>
@@ -257,7 +257,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$3.99 / kg</span>
                       <AddButton />
                     </div>
@@ -278,7 +278,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$5.50 / kg</span>
                       <AddButton />
                     </div>
@@ -299,7 +299,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.30 / kg</span>
                       <AddButton />
                     </div>
@@ -320,7 +320,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$6.99 / kg</span>
                       <AddButton />
                     </div>
@@ -341,7 +341,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$3.89 / kg</span>
                       <AddButton />
                     </div>
@@ -362,7 +362,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$5.99 / kg</span>
                       <AddButton />
                     </div>
@@ -383,7 +383,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.99 / kg</span>
                       <AddButton />
                     </div>
@@ -404,7 +404,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.99 / kg<</span>
                       <AddButton />
                     </div>
@@ -425,7 +425,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.55 / kg</span>
                       <AddButton />
                     </div>
@@ -446,7 +446,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$5.50 / kg</span>
                       <AddButton />
                     </div>
@@ -467,7 +467,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$3.89 / kg</span>
                       <AddButton />
                     </div>
@@ -488,7 +488,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$5.99 / kg</span>
                       <AddButton />
                     </div>
@@ -509,7 +509,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.99 / kg</span>
                       <AddButton />
                     </div>
@@ -530,7 +530,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.99 / kg<</span>
                       <AddButton />
                     </div>
@@ -551,7 +551,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">$4.55 / kg</span>
                       <AddButton />
                     </div>
@@ -572,7 +572,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quisquam iure, itaque ipsa ullam laudantium blanditiis.
                     </p>
-                    <div class="add">
+                    <div class="open">
                       <span class="price">>$3.99 / kg</span>
                       <AddButton />
                     </div>
@@ -603,206 +603,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.shop-page {
-  .title {
-    margin-top: 80px;
-    margin-bottom: 30px;
-    text-align: left;
-    h2 {
-      color: var(--bs-dark);
-      font-size: 40px;
-      font-weight: 500;
-    }
-    .search {
-      position: relative;
-      display: flex;
-      align-items: center;
-      width: 300px;
-      input[type="search"] {
-        flex: 1;
-        height: 50px;
-        padding-left: 15px;
-        border: 1px solid var(--bs-gray);
-        border-radius: 10px 0 0 10px;
-      }
-      button {
-        width: 50px;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--bs-light);
-        border: 1px solid;
-        border-color: var(--bs-gray) var(--bs-gray) var(--bs-gray) transparent;
-        border-radius: 0 10px 10px 0;
-        .v-icon {
-          color: var(--bs-gray);
-        }
-      }
-    }
-  }
-  .content {
-    display: flex;
-    gap: 20px;
-    .products {
-      flex: 1;
-      .products-parent {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 20px;
-        .products-containers {
-          .v-card {
-            overflow: hidden;
-            position: relative;
-            border-radius: 15px;
-            transition: 0.3s;
-            &:hover {
-              box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.6) !important;
-            }
-            .product-card {
-              position: relative;
-              height: 100%;
-              width: 100%;
-              .logo {
-                position: absolute;
-                top: 15px;
-                left: 15px;
-                z-index: 3;
-                font-size: 18px;
-                padding: 3px 14px;
-                border-radius: 8px;
-                color: var(--bs-white);
-                background-color: var(--bs-primary);
-              }
-              .image {
-                width: 100%;
-                height: 180px;
-                overflow: hidden;
-                img {
-                  width: 100%;
-                  height: 100%;
-                  transition: 0.3s;
-                  &:hover {
-                    scale: 1.2;
-                  }
-                }
-              }
-              .info {
-                width: 100%;
-                padding: 15px 20px;
-                border: 1px solid var(--bs-secondary);
-                border-radius: 0 0 14px 14px;
-                h4 {
-                  text-align: left;
-                  font-size: 25px;
-                  color: var(--bs-dark);
-                  font-weight: normal;
-                }
-                .desc {
-                  color: var(--bs-gray);
-                  text-align: left;
-                  margin-top: 10px;
-                  margin-bottom: 10px;
-                  font-size: 18px;
-                  line-height: 1.5;
-                }
-                .add {
-                  display: flex;
-                  justify-content: space-between;
-                  align-items: center;
-                  a {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                    width: fit-content;
-                    color: var(--bs-primary);
-                    cursor: pointer;
-                    border: 2px solid var(--bs-secondary);
-                    padding: 8px 15px;
-                    border-radius: 30px;
-                    transition: 0.3s;
-                    &:hover {
-                      background-color: var(--bs-secondary);
-                      color: var(--bs-white);
-                    }
-                  }
-                  .price {
-                    color: var(--bs-dark);
-                    font-size: 18px;
-                    font-weight: bold;
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
 
-@media (max-width: 991px) {
-  .shop-page {
-    margin: {
-      left: auto;
-      right: auto;
-    }
-    .title {
-      .search {
-        width: 100%;
-      }
-    }
-    .options {
-      margin: 20px auto;
-      width: 100%;
-    }
-    .content {
-      flex-direction: column;
-      justify-content: center;
-    }
-  }
-}
-@media (max-width: 767px) {
-  .shop-page {
-    width: 100%;
-    margin: 0 auto;
-    .content {
-      .products {
-        .products-parent {
-          grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-          .products-containers {
-            .v-card {
-              .fruits-card {
-                .image {
-                  height: 400px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 600px) {
-  .shop-page {
-    width: 100%;
-    .content {
-      .products {
-        .products-parent {
-          .products-containers {
-            .v-card {
-              .fruits-card {
-                .image {
-                  height: 200px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
 </style>

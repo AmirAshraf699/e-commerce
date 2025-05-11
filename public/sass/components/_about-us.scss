@@ -1,0 +1,35 @@
+.about-us {
+  .about-content {
+    padding: 50px;
+    background-color: var(--bs-light);
+    .about-parent {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 30px;
+      .about-child {
+        background-color: var(--bs-white);
+        border-radius: 10px;
+        padding: 25px;
+        .v-icon {
+          font-size: 80px;
+          color: var(--bs-secondary);
+        }
+        h3 {
+          color: var(--bs-primary);
+          font-size: 25px;
+          font-weight: normal;
+          text-transform: uppercase;
+          margin: {
+            top: 20px;
+            bottom: 20px;
+          }
+        }
+        p {
+          color: var(--bs-dark);
+          font-size: 40px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

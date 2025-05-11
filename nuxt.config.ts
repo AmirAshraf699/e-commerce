@@ -14,6 +14,9 @@ export default defineNuxtConfig({
       });
     },
   ],
+   css: [
+    '~/public/sass/main.scss',
+  ],
   vite: {
     vue: {
       template: {
