@@ -6,11 +6,11 @@
         <p class="desc">Our Client Saying</p>
       </div>
       <Swiper
-        :pagination="{ el: '.swiper-pagination', clickable: true }"
+        :pagination="{ clickable: true }"
         :modules="modules"
         :slides-per-view="2"
-        :space-between="10"
-        :navigation="{ prevIcon: '.swiper-prev', nextIcon: '.swiper-next' }"
+        :space-between="30"
+        navigation
         :autoplay="{ delay: 3000 }"
         :breakpoints="breakpoints"
       >
@@ -37,23 +37,26 @@
             </div>
           </div>
         </swiper-slide>
-        <div class="swiper-prev"></div>
-        <div class="swiper-next"></div>
-        <div class="swiper-pagination"></div>
       </Swiper>
     </v-container>
   </div>
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from "vue-awesome-swiper";
-import { Autoplay, Navigation, Pagination } from "swiper";
+import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/vue';
 import { useCounterStore } from "~/store/counter";
 import { mapState } from "pinia";
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import "swiper/css/autoplay";
+
 export default {
   setup() {
     return {
-      modules: [Navigation, Autoplay, Pagination],
+      modules: [Navigation, Autoplay, Pagination, A11y],
       breakpoints: {
         320: {
           slidesPerView: 1,

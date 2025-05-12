@@ -107,9 +107,41 @@
         left: calc(100% - 90px);
       }
       .swiper-pagination {
-        position: absolute;
-        bottom: -60px;
+        transform: translateY(200%);
       }
+    }
+  }
+}
+
+
+@media (max-width: 991px) {
+  .relateds-products {
+    h2 {
+      text-align: center;
+    }
+    .v-container {
+      .swiper {
+        .swiper-button-next,
+        .swiper-button-prev {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .relateds-products {
+    h2 {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .relateds-products {
+    h2 {
+      font-size: 30px;
     }
   }
 }

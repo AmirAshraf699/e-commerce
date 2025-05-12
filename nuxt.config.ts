@@ -24,5 +24,4 @@ export default defineNuxtConfig({
       },
     },
   },
-  plugins: [{ src: "@/plugins/vue-awesome-swiper", mode: "client" }],
 });

@@ -134,16 +134,13 @@
         }
       }
 
-      .swiper-prev,
-      .swiper-next {
-        position: absolute;
+      .swiper-button-prev,
+      .swiper-button-next {
         width: 50px;
         height: 50px;
         border: 2px solid var(--bs-light);
         background-color: var(--bs-primary);
         border-radius: 50%;
-        top: 50%;
-        transform: translateY(-50%);
         z-index: 10;
         cursor: pointer;
         display: flex;
@@ -152,15 +149,9 @@
         color: var(--bs-light);
         font-size: 20px;
         transition: all 0.3s ease;
-
-      }
-
-      .swiper-prev {
-        left: 15px;
-      }
-
-      .swiper-next {
-        right: 15px;
+        &::after {
+          font-size: 25px;
+        }
       }
     }
   }
@@ -217,11 +208,11 @@
           }
         }
         
-        .swiper-prev,
-        .swiper-next {
+        .swiper-button-prev,
+        .swiper-button-next {
           width: 40px;
           height: 40px;
-          font-size: 16px;
+
         }
       }
     }
